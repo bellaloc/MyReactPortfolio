@@ -15,7 +15,7 @@ ESLint Rules: Adheres to ESLint rules to ensure consistent and clean code practi
 
 - Clone this repository:
 
-git clone https://github.com/BellaLoc/react-portfolio.git
+git clone https://github.com/bellaloc/MyReactPortfolio
 
 - Navigate to the project directory:
 
