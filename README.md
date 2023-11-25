@@ -3,6 +3,8 @@
 Welcome to my React-based portfolio, powered by Vite! 🚀 This project provides a streamlined setup to showcase my skills, projects, and experience in an engaging and responsive manner. With the incorporation of HMR (Hot Module Replacement) for a fluid development experience and ESLint rules to maintain code quality, presenting my work has never been more efficient.
 screenShot: /Users/View/Desktop/bootcamp/homework/ReactPortfolio/reactPortfolio/React-Portfolio/dist/assets/Screen Shot 2023-11-13 at 5.30.35 PM.png
 
+Deployed at: https://spontaneous-tanuki-8bbad6.netlify.app/
+
 # Features
 
 React with Vite: Harnesses the power and efficiency of React development through the Vite build tool.
