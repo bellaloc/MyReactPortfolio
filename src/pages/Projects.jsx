@@ -235,11 +235,44 @@ const Projects = () => {
                 description="Generate a Logo for your project in VScode"
                 link="https://drive.google.com/file/d/1dgUsUK54Z0AQ11D9E8yzZoftVm4aqkMU/view?pli=1"
               />
-              {/* Add more ProjectItem components for additional projects */}
+              <ProjectItem
+                title="Ecommerce Backend"
+                description="Scalable Backend management for ecommerce website"
+                link="https://drive.google.com/file/d/1nTd9tJX-02JV2MfW3gBm7_kZtCqfGX30/view"
+              />
+              <ProjectItem
+                title="Regex Tutorial"
+                description="Learn about Email Validation"
+                link="https://gist.github.com/bellaloc/53dff2d3cec06a490432af65733532db"
+              />
+              <ProjectItem
+                title="Tech Blog"
+                description="Create, update, or delete a blog post"
+                link="https://murmuring-cliffs-02800-824951aee946.herokuapp.com/"
+              />
+              <ProjectItem
+                title="Social Network"
+                description="Social Network post, like, comment, add friends"
+                link="https://bellaloc.github.io/SocialNetwork/"
+              />
+              <ProjectItem
+                title="First Portfolio"
+                description="Check out some of my early projects."
+                link="https://bellaloc.github.io/Portfolio/"
+              />
+              <ProjectItem
+                title="Sing Along"
+                description="Interactive karaoke website."
+                link="https://github.com/adamywfong/singalong/tree/main#readme"
+              />
+              <ProjectItem
+                title="More Projects"
+                description="Additional projects"
+                link="path-to-deployed-project"
+              />
             </ul>
           </section>
         </div>
-        <script type="module" src="/src/main.jsx"></script>
         <script
           src="https://code.jquery.com/jquery-3.6.4.min.js"
           integrity="sha384-uUuTiLz+Q1x7e8hI8fNss2C27c7jHcFNMYpDLA+Ak5paDy4NbhO4sfpejHHvR+W3"

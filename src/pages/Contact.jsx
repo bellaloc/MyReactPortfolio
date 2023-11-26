@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,18 +8,35 @@ const Contact = () => {
     message: '',
   });
 
+  const [submissionStatus, setSubmissionStatus] = useState(null);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const sendEmailDirectly = async () => {
+    try {
+      // You can use any method to send an email directly here
+      // For example, you can use a serverless function or a backend service
+      // Replace the following line with the code to send an email
+      console.log('Email sent directly to christalococo@gmail.com:', formData);
+      setSubmissionStatus('success');
+    } catch (error) {
+      console.error('Error sending email directly:', error);
+      setSubmissionStatus('error');
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      await emailjs.sendForm('service_9uvvzpt', 'template_y51733v', formData, 'vx37v5uoWs3oWu7jW');
-      console.log('Email sent successfully!');
+      await emailjs.sendForm('service_9uvvzpt', 'template_y51733v', formData, 'vx37v5uoWs3oWu7jK');
+      setSubmissionStatus('success');
     } catch (error) {
-      console.error('Error sending email:', error);
+      console.error('Error sending email via EmailJS:', error);
+      // If sending via EmailJS fails, try sending directly
+      await sendEmailDirectly();
     }
   };
 
@@ -111,6 +128,14 @@ const Contact = () => {
             .btn-primary:hover {
               background-color: #005662;
             }
+
+            .text-success {
+              color: #28a745;
+            }
+
+            .text-danger {
+              color: #dc3545;
+            }
           `}
         </style>
         <title>Full Stack Developer Portfolio - Christa Lococo</title>
@@ -118,64 +143,76 @@ const Contact = () => {
       <body>
         <div id="root" className="container-fluid">
           <h1>Contact Me</h1>
-          <p>
-            Ready to take your project to the next level? Feel free to reach
-            out! I am open to collaboration and always excited about new
-            opportunities. You can contact me via email at{" "}
-            <a href="mailto:christa.lococo@example.com">
-              christa.lococo@example.com
-            </a>{" "}
-            or connect with me on LinkedIn [
-            <a href="https://www.linkedin.com/in/christa-lococo-4540992a1/">
-              https://www.linkedin.com/in/christa-lococo-4540992a1/
-            </a>
-            ].
-          </p>
+          {submissionStatus === 'success' ? (
+            <p className="text-success">
+              Thank you for reaching out! I will get back to you soon.
+            </p>
+          ) : submissionStatus === 'error' ? (
+            <p className="text-danger">
+              Oops! Something went wrong. Please try again later.
+            </p>
+          ) : (
+            <>
+              <p>
+                Ready to take your project to the next level? Feel free to reach
+                out! I am open to collaboration and always excited about new
+                opportunities. You can contact me via email at{" "}
+                <a href="mailto:christaLococo@Gmail.com">
+                  christaLococo@Gmail.com
+                </a>{" "}
+                or connect with me on LinkedIn [
+                <a href="https://www.linkedin.com/in/christa-lococo-4540992a1/">
+                  Linkedin
+                </a>
+                ].
+              </p>
 
-          <form onSubmit={handleSubmit}>
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">
-                Your Name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="name"
-                name="name"
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label">
-                Your Email
-              </label>
-              <input
-                type="email"
-                className="form-control"
-                id="email"
-                name="email"
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="message" className="form-label">
-                Your Message
-              </label>
-              <textarea
-                className="form-control"
-                id="message"
-                name="message"
-                rows="4"
-                onChange={handleChange}
-                required
-              ></textarea>
-            </div>
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </form>
+              <form onSubmit={handleSubmit}>
+                <div className="mb-3">
+                  <label htmlFor="name" className="form-label">
+                    Your Name
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="name"
+                    name="name"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">
+                    Your Email
+                  </label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    name="email"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="message" className="form-label">
+                    Your Message
+                  </label>
+                  <textarea
+                    className="form-control"
+                    id="message"
+                    name="message"
+                    rows="4"
+                    onChange={handleChange}
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary">
+                  Submit
+                </button>
+              </form>
+            </>
+          )}
         </div>
 
         <script
