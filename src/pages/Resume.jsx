@@ -8,10 +8,51 @@ const Resume = () => {
     const pdf = new jsPDF();
     
     // Add content to the PDF
-    pdf.text('Christa Lococo - Resume', 20, 20);
-    pdf.text('Innovative and results-driven Full Stack Developer', 20, 30);
-
-    // Add more content as needed
+    pdf.text('Christa Lococo - Resume', 10, 10);
+    pdf.text(`
+USA | (805) 284-1445 | ChristaLococo@gmail.com
+Innovative and results-driven Full Stack Developer with a robust skill 
+set from the UCLA Full Stack Bootcamp. Proficient in designing and 
+implementing dynamic web applications using cutting-edge technologies.
+Adept at problem-solving, fostering client relationships, and contributing
+to forward-thinking development teams.
+TECHNICAL EXPERTISE
+Languages & Frameworks:
+  - JavaScript (Node.js) and ES6 (server-side development).
+  - React, HTML, CSS (interactive and responsive UI).
+  - Python with OOP principles.
+Web Development:
+  - Full Stack Development (MERN and MySQL stack).
+  - Apollo for efficient data fetching through GraphQL.
+  - Vite for streamlined development.
+Database Management:
+  - SQL (MySQL) and NoSQL (MongoDB) databases.
+  - Strong database design and optimization skills.
+  - Object-Relational Mapping (ORM).
+Authentication & Security:
+  - JWT (JSON Web Tokens) for secure authentication.
+  - Two-Factor Authentication (2FA) implementation.
+APIs and Integrations:
+  - Building and consuming RESTful APIs.
+  - Integrating third-party services.
+  - Designing and implementing server-side APIs.
+API Testing:
+  - Proficient in using Insomnia for testing APIs.
+Additional Skills:
+  - Server-Side Rendering (SSR) for optimized performance.
+  - Apollo Client and Server for efficient data modification.
+  - OAuth for secure authorization.
+  - Node.js ES6 syntax for server-side development.
+EDUCATION & TECHNICAL TRAINING
+UCLA Full Stack Bootcamp (Graduated November 2023)
+  - Proficient in Python, MERN stack, MySQL, and deploying dynamic
+  web applications.
+Bachelor's Degree in Business Law (Cal State Northridge - 2012)
+  - Minor in Real Estate.
+UCLA Statistics Certificate of Completion (2011)
+Associate Degree in International Business (Santa Monica College - 2010)
+  - Entrepreneurship Certificate of Achievement.
+Additional Credentials and references upon request.`, 10, 10);
 
     // Save the PDF with a specific name
     pdf.save('ChristaLococo_Resume.pdf');
@@ -126,7 +167,6 @@ const Resume = () => {
             <p className="lead text-center">
               Innovative and results-driven Full Stack Developer
             </p>
-            {/* Add a button to trigger the download */}
             <div className="text-center mb-3">
               <button className="btn btn-primary" onClick={handleDownload}>
                 Download Resume
