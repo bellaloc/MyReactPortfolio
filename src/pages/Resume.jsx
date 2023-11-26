@@ -191,6 +191,13 @@ const Resume = () => {
             <p>Tobacco Plains Realty: Rick Vreadenburg - (406) 297-7253</p>
             <p>Additional references available upon request.</p>
           </div>
+
+          {/* Button to view the published resume */}
+          <div className="text-center mb-3">
+            <button className="btn btn-primary" onClick={() => window.open("https://docs.google.com/document/d/e/2PACX-1vQGXHBU1C7KP5KPdHaOXQ-a5Y1O-hwyVdmYaHCO8vuLmaLPhGi2IHQWJTWRoRtHOYLnrxu3qBBTjzOD/pub?embedded=true", "_blank")}>
+              View Published Resume
+            </button>
+          </div>
         </div>
         <script
           src="https://code.jquery.com/jquery-3.6.4.min.js"
