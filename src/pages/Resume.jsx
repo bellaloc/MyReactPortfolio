@@ -96,12 +96,12 @@ Additional Credentials and references upon request.`, 10, 10);
               padding: 0;
             }
 
-            #root {
-              padding: 2rem;
-              background-color: #ffffff;
-              border-radius: 8px;
-              margin: 2rem;
-            }
+            // #root {
+            //   padding: 2rem;
+            //   background-color: #ffffff;
+            //   border-radius: 8px;
+            //   margin: 2rem;
+            // }
 
             h1 {
               color: #009688;
