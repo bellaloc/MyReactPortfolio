@@ -138,6 +138,20 @@ const Projects = () => {
             body {
               animation: fadeIn 1s ease-in-out;
             }
+          }
+
+          /* Responsive Styles */
+          @media (max-width: 768px) {
+              h1 {
+                  font-size: 2.5rem; /* Adjust the font size for smaller screens */
+              }
+          }
+  
+          @media (max-width: 576px) {
+              .personal-image {
+                  max-width: 100px; /* Adjust the size for smaller screens */
+              }
+          }
           `}
         </style>
         <title>Full Stack Developer Portfolio - Christa Lococo</title>
@@ -196,6 +210,16 @@ const Projects = () => {
                 link="https://wine-wizard-a6de255e2c53.herokuapp.com/"
               />
               <ProjectItem
+                title="Book Search Engine"
+                description="Search for a book using the google books API."
+                link="https://murmuring-retreat-88718-1ebbef69cc1f.herokuapp.com/"
+              />
+              <ProjectItem
+                title="Tiny Wear Online Shop"
+                description="Full stack ecommerce website"
+                link="https://github.com/bellaloc/TinyWear"
+              />
+              <ProjectItem
                 title="Password Generator"
                 description="Generate a secure password with this App."
                 link="https://bellaloc.github.io/PasswordGenerator/"
@@ -209,11 +233,6 @@ const Projects = () => {
                 title="Day Planner"
                 description="Plan your day with this App"
                 link="https://bellaloc.github.io/dayPlannerHomework/"
-              />
-              <ProjectItem
-                title="Tiny Wear Online Shop"
-                description="Full stack ecommerce website"
-                link="https://github.com/bellaloc/TinyWear"
               />
               <ProjectItem
                 title="Weather App"
