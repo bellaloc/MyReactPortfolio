@@ -207,7 +207,7 @@ const Projects = () => {
               <ProjectItem
                 title="Wine & Food Pairing App"
                 description="Pair your wine and food with this fullstack application."
-                link="https://wine-wizard-a6de255e2c53.herokuapp.com/"
+                link="https://winewizard-d0570344d348.herokuapp.com/"
               />
               <ProjectItem
                 title="Book Search Engine"
