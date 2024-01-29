@@ -217,7 +217,7 @@ const Projects = () => {
               <ProjectItem
                 title="Tiny Wear Online Shop"
                 description="Full stack ecommerce website"
-                link="https://github.com/bellaloc/TinyWear"
+                link="https://shrouded-depths-10067-a13be7bb300f.herokuapp.com/"
               />
               <ProjectItem
                 title="Password Generator"
