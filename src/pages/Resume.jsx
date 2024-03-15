@@ -12,7 +12,7 @@ const Resume = () => {
     pdf.text(`
 USA | (805) 284-1445 | ChristaLococo@gmail.com
 Innovative and results-driven Full Stack Developer with a robust skill 
-set from the UCLA Full Stack Bootcamp. Proficient in designing and 
+set from the UCLA Full Stack software engineering program. Proficient in designing and 
 implementing dynamic web applications using cutting-edge technologies.
 Adept at problem-solving, fostering client relationships, and contributing
 to forward-thinking development teams.
@@ -44,7 +44,7 @@ Additional Skills:
   - OAuth for secure authorization.
   - Node.js ES6 syntax for server-side development.
 EDUCATION & TECHNICAL TRAINING
-UCLA Full Stack Bootcamp (Graduated November 2023)
+UCLA Full Stack software engineering program (Graduated November 2023)
   - Proficient in Python, MERN stack, MySQL, and deploying dynamic
   web applications.
 Bachelor's Degree in Business Law (Cal State Northridge - 2012)
