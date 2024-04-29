@@ -69,7 +69,7 @@ Additional Credentials and references upon request.`, 10, 10);
         />
         <meta
           name="keywords"
-          content="full stack, web development, MERN stack, resume, UCLA Extension Bootcamp"
+          content="full stack, web development, MERN stack, resume, UCLA"
         />
         <link
           rel="icon"
@@ -178,7 +178,7 @@ Additional Credentials and references upon request.`, 10, 10);
           <div className="resume-section">
             <h2 className="resume-title">Profile</h2>
             <p>
-              Innovative and results-driven Full Stack Developer, equipped with a robust skill set honed at the UCLA Full Stack Bootcamp and diversified project experiences. Demonstrated proficiency in designing and implementing dynamic web applications using cutting-edge technologies. Adept at problem-solving in fast-paced environments, fostering client/business relationships, and eager to contribute technical expertise to a forward-thinking development team.
+              Innovative and results-driven Full Stack Developer, equipped with a robust skill set honed at the UCLA Full Stack software engineering program and diversified project experiences. Demonstrated proficiency in designing and implementing dynamic web applications using cutting-edge technologies. Adept at problem-solving in fast-paced environments, fostering client/business relationships, and eager to contribute technical expertise to a forward-thinking development team.
             </p>
           </div>
 
@@ -197,7 +197,7 @@ Additional Credentials and references upon request.`, 10, 10);
           {/* Education & Technical Training Section */}
           <div className="resume-section">
             <h2 className="resume-title">Education & Technical Training</h2>
-            <h3>UCLA Full Stack Bootcamp</h3>
+            <h3>UCLA Full Stack Software Engineering Program</h3>
             <p>Graduated November 2023</p>
             {/* Add more education details */}
           </div>
@@ -217,7 +217,7 @@ Additional Credentials and references upon request.`, 10, 10);
           <div className="resume-section">
             <h2 className="resume-title">Key Achievements</h2>
             <ul>
-              <li>Successfully graduated from the UCLA Full Stack Bootcamp, showcasing proficiency in a wide range of cutting-edge web development technologies.</li>
+              <li>Successfully graduated from the UCLA Full Stack Software Engineering Program, showcasing proficiency in a wide range of cutting-edge web development technologies.</li>
               <li>Developed and launched an e-commerce platform for "The Montecito Candle Company," highlighting strong entrepreneurial and problem-solving skills.</li>
               <li>Acquired a comprehensive skill set, ensuring versatility and adaptability in dynamic development environments.</li>
             </ul>
@@ -226,10 +226,7 @@ Additional Credentials and references upon request.`, 10, 10);
           {/* References Section */}
           <div className="resume-section">
             <h2 className="resume-title">References</h2>
-            <p>Living Room Realty: Beth Bonita - (503) 320-6813</p>
-            <p>Coldwell Banker: Dana Zertuche - (805) 565-8145</p>
-            <p>Tobacco Plains Realty: Rick Vreadenburg - (406) 297-7253</p>
-            <p>Additional references available upon request.</p>
+            <p>references available upon request.</p>
           </div>
 
           {/* Button to view the published resume */}
