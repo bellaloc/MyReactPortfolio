@@ -8,11 +8,11 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA Extension Bootcamp."
+          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA software engineering program."
         />
         <meta
           name="keywords"
-          content="full stack, web development, UCLA Extension Bootcamp, projects"
+          content="full stack, web development, UCLA, software engineer, web developer, christa lococo, portfolio, projects"
         />
         <link
           rel="icon"
@@ -107,7 +107,7 @@ const Home = () => {
           {/* Header and Description */}
           <h1 className="display-3">Welcome to the Full Stack Developer Portfolio of Christa Lococo</h1>
           <p className="lead">
-            Hi, I'm Christa Lococo, a passionate Full Stack Developer who graduated from the UCLA Extension Bootcamp. I bring a solid foundation in web development and a drive for creating innovative solutions. Let's build something amazing together!
+            Hi, I'm Christa Lococo, a passionate Full Stack Developer who graduated from the UCLA software engineering program. I bring a solid foundation in web development and a drive for creating innovative solutions. Let's build something amazing together!
           </p>
         </div>
 
