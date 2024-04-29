@@ -8,11 +8,11 @@ const About = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA Extension Bootcamp."
+          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA Software Engineering Program."
         />
         <meta
           name="keywords"
-          content="full stack, web development, UCLA Extension Bootcamp, projects"
+          content="full stack, web development, UCLA, Software engineering, Fullstack developer, portfolio, Christa Lococo, projects"
         />
         <link
           rel="icon"
@@ -91,19 +91,19 @@ const About = () => {
             <br />
             Born and raised in the diverse and dynamic environment of Los
             Angeles, I bring a unique perspective to my work. Recently, I
-            graduated from the rigorous UCLA Extension Bootcamp Software
+            graduated from the rigorous UCLA Software
             Engineering Program, where I immersed myself in the world of web
             development.
             <br />
             <br />
-            My journey in the bootcamp equipped me with a robust skill set that
+            My journey at UCLA equipped me with a robust skill set that
             spans the entire software development stack. From designing
             responsive and intuitive user interfaces with HTML, CSS, and React,
             to building powerful server-side applications using Node.js, my
             skills cover a broad spectrum.
             <br />
             <br />
-            During my time at the bootcamp, I delved into the intricacies of
+            During my time at UCLA, I delved into the intricacies of
             database management, version control with Git, and the principles
             of full-stack development. I am proficient in creating dynamic and
             scalable web applications, and I thrive on the challenges that come
