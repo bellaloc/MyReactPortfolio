@@ -18,11 +18,11 @@ const Projects = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA Extension Bootcamp."
+          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA software engineering program."
         />
         <meta
           name="keywords"
-          content="full stack, web development, UCLA Extension Bootcamp, projects"
+          content="full stack, web development, UCLA, software engineer, full stack developer, portfolio, projects"
         />
         <link
           rel="icon"
@@ -196,7 +196,7 @@ const Projects = () => {
             </h1>
             <p className="lead">
               Explore my projects and skills in web development. As a graduate
-              of the UCLA Extension Bootcamp, I bring a solid foundation and a
+              of the UCLA software engineering program, I bring a solid foundation and a
               passion for creating innovative solutions. Let's build something
               amazing together!
             </p>
