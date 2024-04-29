@@ -47,11 +47,11 @@ const Contact = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA Extension Bootcamp."
+          content="Explore the portfolio of Christa Lococo, a Full Stack Developer from UCLA software engineering program."
         />
         <meta
           name="keywords"
-          content="full stack, web development, UCLA Extension Bootcamp, projects"
+          content="full stack, web development, UCLA, full stack developer, software engineering, portfolio, christa lococo, projects"
         />
         <link
           rel="icon"
